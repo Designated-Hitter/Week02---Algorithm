@@ -63,9 +63,9 @@
 
 |No|기한|문제번호|문제명|난이도|정동환|안상언|장종현
 |:-:|------|:-----:|-------|:-----:|:-----:|:-----:|:-----:|
-|1|2023-08-18|[10828](https://www.acmicpc.net/problem/10828)|스택|하|❌|❌|❌|
-|2|2023-08-18|[10883](https://www.acmicpc.net/problem/10883)|제로|하|❌|❌|❌|
-|3|2023-08-18|[9012](https://www.acmicpc.net/problem/9012)|괄호|하|❌|❌|❌|
+|1|2023-08-18|[10828](https://www.acmicpc.net/problem/10828)|스택|하|✅|❌|❌|
+|2|2023-08-18|[10883](https://www.acmicpc.net/problem/10883)|제로|하|✅|❌|❌|
+|3|2023-08-18|[9012](https://www.acmicpc.net/problem/9012)|괄호|하|✅|❌|❌|
 |4|2023-08-18|[17608](https://www.acmicpc.net/problem/17608)|막대기|하|❌|❌|❌|
 |5|2023-08-18|[2504](https://www.acmicpc.net/problem/2504)|괄호의 값|하|❌|❌|❌|
 |6|2023-08-18|[2493](https://www.acmicpc.net/problem/2493)|탑|중|❌|❌|❌|
