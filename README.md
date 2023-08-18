@@ -75,7 +75,7 @@
 |10|2023-08-19|[18258](https://www.acmicpc.net/problem/18258)|큐 2|하|❌|✅|❌|
 |11|2023-08-19|[2164](https://www.acmicpc.net/problem/2164)|카드 2|하|❌|✅|❌|
 |12|2023-08-19|[11866](https://www.acmicpc.net/problem/11866)|요세푸스 문제 0|하|❌|✅|❌|
-|13|2023-08-19|[3190](https://www.acmicpc.net/problem/3190)|뱀|큐|❌|❌|❌|
+|13|2023-08-19|[3190](https://www.acmicpc.net/problem/3190)|뱀|큐|❌|✅|❌|
 |14|2023-08-19|[11279](https://www.acmicpc.net/problem/11279)|최대 힙|하|❌|❌|❌|
 |15|2023-08-19|[1655](https://www.acmicpc.net/problem/1655)|가운데를 말해요|중|❌|❌|❌|
 |16|2023-08-19|[1715](https://www.acmicpc.net/problem/1715)|카드 정렬하기|중|❌|❌|❌|
