@@ -68,8 +68,8 @@
 |3|2023-08-18|[9012](https://www.acmicpc.net/problem/9012)|괄호|하|✅|✅|✅|
 |4|2023-08-18|[17608](https://www.acmicpc.net/problem/17608)|막대기|하|✅|✅|✅|
 |5|2023-08-18|[2504](https://www.acmicpc.net/problem/2504)|괄호의 값|하|⚠️|⚠️|⚠️|
-|6|2023-08-18|[2493](https://www.acmicpc.net/problem/2493)|탑|중|❌|✅|✅|
-|7|2023-08-18|[2812](https://www.acmicpc.net/problem/2812)|크게 만들기|중|❌|✅|⚠️|
+|6|2023-08-18|[2493](https://www.acmicpc.net/problem/2493)|탑|중|⚠️|✅|✅|
+|7|2023-08-18|[2812](https://www.acmicpc.net/problem/2812)|크게 만들기|중|⚠️|✅|⚠️|
 |8|2023-08-18|[10000](https://www.acmicpc.net/problem/10000)|원 영역|상|❌|⚠️|⚠️|
 |9|2023-08-19|[6549](https://www.acmicpc.net/problem/6549)|히스토그램에서 가장 큰 직사각형|상|❌|✅|❌|
 |10|2023-08-19|[18258](https://www.acmicpc.net/problem/18258)|큐 2|하|❌|✅|❌|
