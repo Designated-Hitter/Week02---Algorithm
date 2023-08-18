@@ -57,6 +57,11 @@ array = list(input())
 #         mul_stack.append(2)
 ###############
 
+'''
+(()[[]])([])
+괄호시작할때 마다 내부 요소에 분배법칙으로 곱하기 적용
+'''
+
 stack = []
 answer = 0
 tmp = 1
