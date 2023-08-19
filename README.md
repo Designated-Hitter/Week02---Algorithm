@@ -72,9 +72,9 @@
 |7|2023-08-18|[2812](https://www.acmicpc.net/problem/2812)|크게 만들기|중|⚠️|✅|⚠️|
 |8|2023-08-18|[10000](https://www.acmicpc.net/problem/10000)|원 영역|상|❌|⚠️|⚠️|
 |9|2023-08-19|[6549](https://www.acmicpc.net/problem/6549)|히스토그램에서 가장 큰 직사각형|상|❌|✅|❌|
-|10|2023-08-19|[18258](https://www.acmicpc.net/problem/18258)|큐 2|하|✅|✅|❌|
-|11|2023-08-19|[2164](https://www.acmicpc.net/problem/2164)|카드 2|하|✅|✅|❌|
-|12|2023-08-19|[11866](https://www.acmicpc.net/problem/11866)|요세푸스 문제 0|하|⚠️|✅|❌|
+|10|2023-08-19|[18258](https://www.acmicpc.net/problem/18258)|큐 2|하|✅|✅|✅|
+|11|2023-08-19|[2164](https://www.acmicpc.net/problem/2164)|카드 2|하|✅|✅|✅|
+|12|2023-08-19|[11866](https://www.acmicpc.net/problem/11866)|요세푸스 문제 0|하|⚠️|✅|✅|
 |13|2023-08-19|[3190](https://www.acmicpc.net/problem/3190)|뱀|중|❌|✅|❌|
 |14|2023-08-19|[11279](https://www.acmicpc.net/problem/11279)|최대 힙|하|⚠️|✅|❌|
 |15|2023-08-19|[1655](https://www.acmicpc.net/problem/1655)|가운데를 말해요|중|⚠️|⚠️|❌|
