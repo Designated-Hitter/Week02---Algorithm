@@ -87,9 +87,9 @@
 |22|2023-08-21|[11724](https://www.acmicpc.net/problem/11724)|연결 요소의 개수|하|❌|✅|❌|
 |23|2023-08-21|[2606](https://www.acmicpc.net/problem/2606)|바이러스|하|❌|✅|❌|
 |24|2023-08-21|[11725](https://www.acmicpc.net/problem/11725)|트리의 부모 찾기|중|❌|✅|❌|
-|25|2023-08-22|[1707](https://www.acmicpc.net/problem/1707)|이분 그래프|중|❌|❌|❌|
+|25|2023-08-22|[1707](https://www.acmicpc.net/problem/1707)|이분 그래프|중|❌|⚠️|❌|
 |26|2023-08-22|[21606](https://www.acmicpc.net/problem/21606)|아침 산책|중|❌|❌|❌|
-|27|2023-08-22|[14888](https://www.acmicpc.net/problem/14888)|연산자 끼워넣기|중|❌|❌|❌|
+|27|2023-08-22|[14888](https://www.acmicpc.net/problem/14888)|연산자 끼워넣기|중|❌|✅|❌|
 |28|2023-08-22|[2573](https://www.acmicpc.net/problem/2573)|빙산|상|❌|❌|❌|
 |29|2023-08-22|[2617](https://www.acmicpc.net/problem/2617)|구슬 찾기|상|❌|❌|❌|
 |30|2023-08-22|[2178](https://www.acmicpc.net/problem/2178)|미로 탐색|하|❌|❌|❌|
