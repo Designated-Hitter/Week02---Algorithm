@@ -1,6 +1,7 @@
 import sys
 import heapq
 N = int(sys.stdin.readline())
+
 home_n_office = []
 for _ in range(N):
     x = list((sys.stdin.readline().split()))
