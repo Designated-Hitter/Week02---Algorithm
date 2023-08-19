@@ -24,5 +24,9 @@ while True:
         print(f"min stack = {min(stack)}")
         print(f'len(stack) = {len(stack)}')
         answers.append(min(stack) * len(stack))
+
+#반례 7 10 1 1 1 6 6 6
+#출력: 10
+#정답: 18
     
     print(max(answers))
