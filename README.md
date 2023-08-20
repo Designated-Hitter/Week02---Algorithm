@@ -80,12 +80,12 @@
 |15|2023-08-19|[1655](https://www.acmicpc.net/problem/1655)|가운데를 말해요|중|⚠️|⚠️|⚠️|
 |16|2023-08-19|[1715](https://www.acmicpc.net/problem/1715)|카드 정렬하기|중|✅|✅|⚠️|
 |17|2023-08-21|[13334](https://www.acmicpc.net/problem/13334)|철로|중|❌|⚠️|❌|
-|18|2023-08-21|[1991](https://www.acmicpc.net/problem/1991)|트리 순회|하|❌|✅|❌|
-|19|2023-08-21|[5639](https://www.acmicpc.net/problem/5639)|이진 검색 트리|하|❌|✅|❌|
-|20|2023-08-21|[1197](https://www.acmicpc.net/problem/1197)|최소 스패닝 트리|하|❌|⚠️|❌|
-|21|2023-08-21|[1260](https://www.acmicpc.net/problem/1260)|DFS와 BFS|하|❌|✅|❌|
-|22|2023-08-21|[11724](https://www.acmicpc.net/problem/11724)|연결 요소의 개수|하|❌|✅|❌|
-|23|2023-08-21|[2606](https://www.acmicpc.net/problem/2606)|바이러스|하|❌|✅|❌|
+|18|2023-08-21|[1991](https://www.acmicpc.net/problem/1991)|트리 순회|하|⚠️|✅|❌|
+|19|2023-08-21|[5639](https://www.acmicpc.net/problem/5639)|이진 검색 트리|하|⚠️|✅|❌|
+|20|2023-08-21|[1197](https://www.acmicpc.net/problem/1197)|최소 스패닝 트리|하|⚠️|⚠️|❌|
+|21|2023-08-21|[1260](https://www.acmicpc.net/problem/1260)|DFS와 BFS|하|⚠️|✅|❌|
+|22|2023-08-21|[11724](https://www.acmicpc.net/problem/11724)|연결 요소의 개수|하|⚠️|✅|❌|
+|23|2023-08-21|[2606](https://www.acmicpc.net/problem/2606)|바이러스|하|⚠️|✅|❌|
 |24|2023-08-21|[11725](https://www.acmicpc.net/problem/11725)|트리의 부모 찾기|중|❌|✅|❌|
 |25|2023-08-22|[1707](https://www.acmicpc.net/problem/1707)|이분 그래프|중|❌|⚠️|❌|
 |26|2023-08-22|[21606](https://www.acmicpc.net/problem/21606)|아침 산책|중|❌|✅|❌|
@@ -97,10 +97,10 @@
 |32|2023-08-22|[1916](https://www.acmicpc.net/problem/1916)|최소비용 구하기|중|❌|✅|❌|
 |33|2023-08-23|[2665](https://www.acmicpc.net/problem/2665)|미로 만들기|중|❌|✅|❌|
 |34|2023-08-23|[7569](https://www.acmicpc.net/problem/7569)|토마토|중|❌|✅|❌|
-|35|2023-08-23|[3055](https://www.acmicpc.net/problem/3055)|탈출|중|❌|❌|❌|
-|36|2023-08-23|[2294](https://www.acmicpc.net/problem/2294)|동전 2|상|❌|❌|❌|
-|37|2023-08-23|[2252](https://www.acmicpc.net/problem/2252)|줄 세우기|하|❌|❌|❌|
-|38|2023-08-23|[2637](https://www.acmicpc.net/problem/2637)|장난감조립|중|❌|❌|❌|
-|39|2023-08-23|[1432](https://www.acmicpc.net/problem/1432)|그래프 수정|상|❌|❌|❌|
-|40|2023-08-23|[1948](https://www.acmicpc.net/problem/1948)|임계경로|상|❌|❌|❌|
+|35|2023-08-23|[3055](https://www.acmicpc.net/problem/3055)|탈출|중|❌|✅|❌|
+|36|2023-08-23|[2294](https://www.acmicpc.net/problem/2294)|동전 2|상|❌|✅|❌|
+|37|2023-08-23|[2252](https://www.acmicpc.net/problem/2252)|줄 세우기|하|❌|✅|❌|
+|38|2023-08-23|[2637](https://www.acmicpc.net/problem/2637)|장난감조립|중|❌|✅|❌|
+|39|2023-08-23|[1432](https://www.acmicpc.net/problem/1432)|그래프 수정|상|❌|⚠️|❌|
+|40|2023-08-23|[1948](https://www.acmicpc.net/problem/1948)|임계경로|상|❌|⚠️|❌|
 
