@@ -98,7 +98,7 @@
 |33|2023-08-23|[2665](https://www.acmicpc.net/problem/2665)|미로 만들기|중|❌|✅|❌|
 |34|2023-08-23|[7569](https://www.acmicpc.net/problem/7569)|토마토|중|❌|✅|❌|
 |35|2023-08-23|[3055](https://www.acmicpc.net/problem/3055)|탈출|중|❌|✅|❌|
-|36|2023-08-23|[2294](https://www.acmicpc.net/problem/2294)|동전 2|상|❌|❌|❌|
+|36|2023-08-23|[2294](https://www.acmicpc.net/problem/2294)|동전 2|상|❌|✅|❌|
 |37|2023-08-23|[2252](https://www.acmicpc.net/problem/2252)|줄 세우기|하|❌|❌|❌|
 |38|2023-08-23|[2637](https://www.acmicpc.net/problem/2637)|장난감조립|중|❌|❌|❌|
 |39|2023-08-23|[1432](https://www.acmicpc.net/problem/1432)|그래프 수정|상|❌|❌|❌|
