@@ -81,8 +81,8 @@
 |16|2023-08-19|[1715](https://www.acmicpc.net/problem/1715)|카드 정렬하기|중|✅|✅|⚠️|
 |17|2023-08-21|[13334](https://www.acmicpc.net/problem/13334)|철로|중|❌|⚠️|❌|
 |18|2023-08-21|[1991](https://www.acmicpc.net/problem/1991)|트리 순회|하|⚠️|✅|❌|
-|19|2023-08-21|[5639](https://www.acmicpc.net/problem/5639)|이진 검색 트리|하|❌|✅|❌|
-|20|2023-08-21|[1197](https://www.acmicpc.net/problem/1197)|최소 스패닝 트리|하|❌|⚠️|❌|
+|19|2023-08-21|[5639](https://www.acmicpc.net/problem/5639)|이진 검색 트리|하|⚠️|✅|❌|
+|20|2023-08-21|[1197](https://www.acmicpc.net/problem/1197)|최소 스패닝 트리|하|⚠️|⚠️|❌|
 |21|2023-08-21|[1260](https://www.acmicpc.net/problem/1260)|DFS와 BFS|하|❌|✅|❌|
 |22|2023-08-21|[11724](https://www.acmicpc.net/problem/11724)|연결 요소의 개수|하|❌|✅|❌|
 |23|2023-08-21|[2606](https://www.acmicpc.net/problem/2606)|바이러스|하|❌|✅|❌|
