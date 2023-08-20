@@ -2,41 +2,39 @@ import sys
 import heapq
 N = int(sys.stdin.readline())
 
-home_n_office = []
+road_info = []
 for _ in range(N):
     x = list((sys.stdin.readline().split()))
     #계산하기 편하게 출근 방향이 반대인 사람도 똑같이 바꿈
     if int(x[0]) > int(x[1]):    
         x = [x[1], x[0]]
-    home_n_office.append(x)
+    road_info.append(x)
 d = int(sys.stdin.readline())
 
-possible_commuter = [] #[출발점, 도착점]
-for i in home_n_office:
+roads = [] #[출발점, 도착점]
+for road in road_info:
     #애초에 거리가 d보다 멀어서 지하철을 이용할 수 없는 경우를 제외
-    if abs(int(i[0]) - int(i[1])) <= d:
-        heapq.heappush(possible_commuter,([int(i[0]), int(i[1])])) #시작점 기준으로 heappush
+    if abs(int(road[0]) - int(road[1])) <= d:
+        #좌표정보를 오름차순으로 저장
+        road = sorted(road)
+        roads.append(road)
+#철로의 시작점을 가장 작은것부터 할 수 있도록 roads를 본인의 원소 중 큰 원소를 기준으로 오름차순 정렬        
+roads.sort(key = lambda x:x[1])
 
-departure_point = []
-for possible in possible_commuter:
-    departure_point.append(possible[0])
-    departure_point = list(set(departure_point)) #출발 가능한 지점의 중복 삭제
+answer = 0
+heap = []
 
-answer = [0]
+for road in roads:
+    if not heap:
+        heapq.heappush(heap, road)
+    else:
+        #철로의 시작점을 가장 작은것부터 순회하면서 heappush
+        #이 때, heap에 존재하는 가장 작은 값이 철로의 끝 점안에 존재하는 지 확인해 철로 내에 있지 않다면 heappop
+        while int(heap[0][0]) < int(road[1]) - d:
+            heapq.heappop(heap)
+            if not heap:
+                break
+        heapq.heappush(heap, road)
+    answer = max(answer, len(heap))
 
-#이중for문을 어떻게 줄이기만 하면 될거 같음
-#근데 이걸 어떻게 줄임
-for point in departure_point:
-    count = 0
-    for commuter in possible_commuter:
-        if point <= commuter[0] and point + d >= commuter[1]:
-            count += 1
-    answer.append(count)
-
-# print(f'answer = {answer}')
-print(max(answer))
-# print(f'N = {N}')
-# print(f'home_n_office = {home_n_office}')
-# print(f'possible_commuter = {possible_commuter}')
-# print(f'departure_point = {departure_point}')
-# print(f'd = {d}')
+print(answer)
