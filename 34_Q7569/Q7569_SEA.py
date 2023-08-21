@@ -31,12 +31,12 @@ for i in range(H):
             elif tomatos[i][j][k] == 1: # 익었으면 큐에 저장.
                 q.append((i, j, k, 0)) # (z, x, y, 경과일수)
 
-# 하나씩 빼서 봤을 때 지금까지 익힌 토마토 개수가 안 익은 토마토의 개수와 같으면 경과일수를 출력한다.
 flag = False
 
 if unreaped_cnts == 0:
     print(0)
 
+# 하나씩 빼서 봤을 때 지금까지 익힌 토마토 개수가 안 익은 토마토의 개수와 같으면 경과일수를 출력한다.
 while q:
     cur = q.popleft()
     z, x, y, days = cur
