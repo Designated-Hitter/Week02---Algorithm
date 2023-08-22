@@ -22,11 +22,11 @@ def BFS(start):
         for i in graph[now]:
             if not visited[i]:
                 visited[i] = True
-                que.append(i)
                 distance[i] = distance[now] + 1 #모든 도시 간 거리가 1이므로 i로 가는 거리는 현재 거리 + 1
                 if distance[i] == K: #거리가 K값과 같다면
-                    answer.append(i) #answer에 정답인 도시를 추가
-    
+                    answer.append(i)#answer에 정답인 도시를 추가
+                    continue
+                que.append(i)
     if len(answer) == 0:
         print(-1)
     else:

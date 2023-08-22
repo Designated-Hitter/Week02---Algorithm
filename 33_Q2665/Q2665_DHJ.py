@@ -3,7 +3,8 @@ from collections import deque
 input = sys.stdin.readline
 
 n = int(input())
+maze = []
 for _ in range(n):
-    maze = [list(map, int(input()))]
+    maze.append(list(input()))
 
 print(maze)
