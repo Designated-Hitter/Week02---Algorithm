@@ -88,7 +88,7 @@
 |23|2023-08-21|[2606](https://www.acmicpc.net/problem/2606)|바이러스|하|⚠️|✅|✅|
 |24|2023-08-21|[11725](https://www.acmicpc.net/problem/11725)|트리의 부모 찾기|중|⚠️|✅|✅|
 |25|2023-08-22|[1707](https://www.acmicpc.net/problem/1707)|이분 그래프|중|⚠️|⚠️|⚠️|
-|26|2023-08-22|[21606](https://www.acmicpc.net/problem/21606)|아침 산책|중|❌|✅|⚠️|
+|26|2023-08-22|[21606](https://www.acmicpc.net/problem/21606)|아침 산책|중|⚠️|✅|⚠️|
 |27|2023-08-22|[14888](https://www.acmicpc.net/problem/14888)|연산자 끼워넣기|중|❌|✅|✅|
 |28|2023-08-22|[2573](https://www.acmicpc.net/problem/2573)|빙산|상|❌|✅|❌|
 |29|2023-08-22|[2617](https://www.acmicpc.net/problem/2617)|구슬 찾기|상|❌|✅|❌|
@@ -99,7 +99,7 @@
 |34|2023-08-23|[7569](https://www.acmicpc.net/problem/7569)|토마토|중|❌|✅|❌|
 |35|2023-08-23|[3055](https://www.acmicpc.net/problem/3055)|탈출|중|❌|✅|❌|
 |36|2023-08-23|[2294](https://www.acmicpc.net/problem/2294)|동전 2|상|❌|✅|❌|
-|37|2023-08-23|[2252](https://www.acmicpc.net/problem/2252)|줄 세우기|하|❌|✅|✅|
+|37|2023-08-23|[2252](https://www.acmicpc.net/problem/2252)|줄 세우기|하|⚠️|✅|✅|
 |38|2023-08-23|[2637](https://www.acmicpc.net/problem/2637)|장난감조립|중|❌|✅|❌|
 |39|2023-08-23|[1432](https://www.acmicpc.net/problem/1432)|그래프 수정|상|❌|⚠️|❌|
 |40|2023-08-23|[1948](https://www.acmicpc.net/problem/1948)|임계경로|상|❌|⚠️|❌|
