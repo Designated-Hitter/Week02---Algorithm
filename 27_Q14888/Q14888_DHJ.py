@@ -1,51 +1,41 @@
 import sys
 N = int(sys.stdin.readline())
 num_list = list(map(int, sys.stdin.readline().split()))
-plus, minus, multiply, divide = map(int, sys.stdin.readline().split())
-operator_list = []
-visited = [False] * (len(num_list) - 1)
+operator = list(map(int, sys.stdin.readline().split()))
 
-for _ in range(plus):
-    operator_list.append('plus')
-for _ in range(minus):
-    operator_list.append('minus')
-for _ in range(multiply):
-    operator_list.append('multiply')
-for _ in range(divide):
-    operator_list.append('divide')
+# 최솟값과 최댓값 초기화
+min_value = int(1e9)
+max_value = int(-1e9)
 
-#----------------------------------------------------------------------------------------------
-possible_list = [0] * (len(num_list) - 1)
-answer_list = []
-def perm(n, k):
-    if n == k:
-        #가능한 리스트를 구하고 바로 결과를 계산하기
-        temp_value = num_list[0]
-        for i in range(0, len(possible_list)):
-            if possible_list[i] == 'plus':
-                temp_value = temp_value + num_list[i + 1]
-            elif possible_list[i] == 'minus':
-                temp_value = temp_value - num_list[i + 1]
-            elif possible_list[i] == 'multiply':
-                temp_value = temp_value * num_list[i + 1]
-            else:
-                if temp_value < 0:
-                    temp_value = temp_value * -1
-                    temp_value = (temp_value // num_list[i + 1]) * -1
-                else:
-                    temp_value = temp_value // num_list[i + 1]
-
-        answer_list.append(temp_value)
-            
-    else:
-        for i in range(0, n):
-            if visited[i] : continue
-            possible_list[k] = operator_list[i]
-            visited[i] = True
-            perm(n, k+1)
-            visited[i] = False
-    
-perm(len(operator_list), 0)
 #------------------------------------------------------------------------
-print(max(answer_list))
-print(min(answer_list))
+def dfs(order, num_sum, target): # (더해진 숫자 개수, 총합, 더할 숫자 개수)
+    if order == target: # 다 연산했으면 갱신
+        global max_value
+        global min_value
+        max_value = max(max_value, num_sum)
+        min_value = min(min_value, num_sum)
+        return
+    
+    for i in range(4):
+        if operator[i] > 0:
+            operator[i] -= 1
+            
+            if i == 0: # +
+                dfs(order + 1, num_sum + num_list[order], target)
+            elif i == 1: # -
+                dfs(order + 1, num_sum - num_list[order], target)
+            elif i == 2: # *
+                dfs(order + 1, num_sum * num_list[order], target)
+            else: # %
+                if num_sum < 0:
+                    dfs(order + 1, -(abs(num_sum) // num_list[order]), target)
+                else:
+                    dfs(order + 1, num_sum // num_list[order], target)
+            
+            operator[i] += 1
+#------------------------------------------------------------------------
+
+dfs(1, num_list[0], N)
+
+print(max_value)
+print(min_value)
