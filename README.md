@@ -75,11 +75,11 @@
 |10|2023-08-19|[18258](https://www.acmicpc.net/problem/18258)|큐 2|하|✅|✅|✅|
 |11|2023-08-19|[2164](https://www.acmicpc.net/problem/2164)|카드 2|하|✅|✅|✅|
 |12|2023-08-19|[11866](https://www.acmicpc.net/problem/11866)|요세푸스 문제 0|하|⚠️|✅|✅|
-|13|2023-08-19|[3190](https://www.acmicpc.net/problem/3190)|뱀|중|⚠️|✅|❌|
+|13|2023-08-19|[3190](https://www.acmicpc.net/problem/3190)|뱀|중|⚠️|✅|⚠️|
 |14|2023-08-19|[11279](https://www.acmicpc.net/problem/11279)|최대 힙|하|⚠️|✅|✅|
 |15|2023-08-19|[1655](https://www.acmicpc.net/problem/1655)|가운데를 말해요|중|⚠️|⚠️|⚠️|
 |16|2023-08-19|[1715](https://www.acmicpc.net/problem/1715)|카드 정렬하기|중|✅|✅|⚠️|
-|17|2023-08-21|[13334](https://www.acmicpc.net/problem/13334)|철로|중|❌|⚠️|❌|
+|17|2023-08-21|[13334](https://www.acmicpc.net/problem/13334)|철로|중|❌|⚠️|⚠️|
 |18|2023-08-21|[1991](https://www.acmicpc.net/problem/1991)|트리 순회|하|⚠️|✅|✅|
 |19|2023-08-21|[5639](https://www.acmicpc.net/problem/5639)|이진 검색 트리|하|⚠️|✅|✅|
 |20|2023-08-21|[1197](https://www.acmicpc.net/problem/1197)|최소 스패닝 트리|하|⚠️|⚠️|❌|
@@ -90,7 +90,7 @@
 |25|2023-08-22|[1707](https://www.acmicpc.net/problem/1707)|이분 그래프|중|⚠️|⚠️|⚠️|
 |26|2023-08-22|[21606](https://www.acmicpc.net/problem/21606)|아침 산책|중|⚠️|✅|⚠️|
 |27|2023-08-22|[14888](https://www.acmicpc.net/problem/14888)|연산자 끼워넣기|중|⚠️|✅|✅|
-|28|2023-08-22|[2573](https://www.acmicpc.net/problem/2573)|빙산|상|⚠️|✅|❌|
+|28|2023-08-22|[2573](https://www.acmicpc.net/problem/2573)|빙산|상|⚠️|✅|⚠️|
 |29|2023-08-22|[2617](https://www.acmicpc.net/problem/2617)|구슬 찾기|상|⚠️|✅|❌|
 |30|2023-08-22|[2178](https://www.acmicpc.net/problem/2178)|미로 탐색|하|⚠️|✅|✅|
 |31|2023-08-22|[18352](https://www.acmicpc.net/problem/18352)|특정 거리의 도시 찾기|하|✅|✅|✅|
