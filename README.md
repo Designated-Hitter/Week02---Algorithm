@@ -102,5 +102,5 @@
 |37|2023-08-23|[2252](https://www.acmicpc.net/problem/2252)|줄 세우기|하|⚠️|✅|✅|
 |38|2023-08-23|[2637](https://www.acmicpc.net/problem/2637)|장난감조립|중|⚠️|✅|⚠️|
 |39|2023-08-23|[1432](https://www.acmicpc.net/problem/1432)|그래프 수정|상|⚠️|⚠️|⚠️|
-|40|2023-08-23|[1948](https://www.acmicpc.net/problem/1948)|임계경로|상|❌|⚠️|⚠️|
+|40|2023-08-23|[1948](https://www.acmicpc.net/problem/1948)|임계경로|상|⚠️|⚠️|⚠️|
 
