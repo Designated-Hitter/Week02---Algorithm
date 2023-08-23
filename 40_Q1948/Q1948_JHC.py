@@ -8,9 +8,9 @@ N = int(input())    # N: 도시의 개수
 M = int(input())    # M: 도로의 개수
 
 time = [0] * (N+1)
-in_degree = [0] * (N+1)
-graph = [[] for _ in range(N+1)]
-bgraph = [[] for _ in range(N+1)]    # backward of graph
+in_degree = [0] * (N+1)     # 진입차수
+graph = [[] for _ in range(N+1)]    # 정방향
+bgraph = [[] for _ in range(N+1)]   # 역방향
 cnt = [[] for _ in range(N+1)]
 
 for _ in range(M):
@@ -102,22 +102,3 @@ print(len(route))
 #     print(cnt)
 
 # topologysort()
-
-''''''
-# import sys
-# input = sys.stdin.readline
-
-# n = int(input())
-# m = int(input())
-
-# indegree = [0]*(n+1)
-# graph = [[] for i in range(n+1)]
-
-
-# for _ in range(m):
-#     s, e, w = map(int, input().split())
-#     graph[s].append((e, w))
-#     indegree[e] += 1
-
-# def topology_sort():
-#     result = 

@@ -10,6 +10,9 @@ import sys
 0000
 0000
 0100
+
+오답: 1 4 2 3
+정답: 1 3 4 2
 ##
 
 indegree 아닌 outdegree 사용해서 answer의 배열을 1부터 넣지말고 n부터 넣기
