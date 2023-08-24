@@ -23,6 +23,7 @@ for _ in range(M):
     graph[a].append((b, t))
     bgraph[b].append((a, t))
     indegree[b] += 1
+
 start, end = map(int, input().split())
 
 q.append(start)
@@ -42,12 +43,12 @@ def topology_sort():
     while q:
         now = q.popleft()
         for i, t in bgraph[now]:
-            if result[now] - result[i] == t: #도착점까지의 최대 비용 - 시작점으로부터의 비용 = 현재 비용 이라면 이 경로는 가장 오래걸리는 간선
-                
+            if result[now] - result[i] == t: #시작 -> 도착점까지의 최대 비용 - 시작점 -> i 까지의 최대 비용 = 현재 비용 이라면 이 경로는 가장 오래걸리는 간선
+                count += 1
                 if check[i] == 0: #단 이 간선을 간 적이 없어야 q에 append
-                    count += 1
+                    
                     q.append(i)
-                    check[i] == 1
+                    check[i] = 1
 
     print(result[end])
     print(count)
